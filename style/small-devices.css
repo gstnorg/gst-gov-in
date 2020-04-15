@@ -1,0 +1,68 @@
+@media only screen and (max-device-width: 480px) {
+    .mt-2, .my-2 {
+         margin-top: 0rem!important; 
+    }    
+    .site-branding h1 a img {
+        height: 60px;
+    }
+    .mid-section .container .row{
+        display: inline-block;
+    }
+    .exampleSearch{
+        width: 100%;
+        margin: 0px 15px 0 0;
+    }
+    nav.whatsNew a{
+        float: left;
+    }
+    form.exampleSearch input[type="text"]{
+        width: 84%;
+    }
+    .mapheading div div .gststatval{
+        width: 100%;
+    }
+    .accessible-megamenu-toggle > span:not(.sr-only){
+        background: #fff;
+    }
+    .row.about-container_inner div div .col-sm-6.login-cont{
+        padding:0;
+        border: 0;
+        padding: 40px 0;
+    }
+    .signin-form{
+        padding:0;
+        padding-left: 15px;
+    }
+    .extLink{
+        font-size: 11px;
+    }
+    .maps{
+      padding: 30px 0px 15px 0px;
+    }
+    .accessible-megamenu > .accessible-megamenu-top-nav-item a .ride {
+        border-left: 0px solid #577393;
+
+      }
+      .alllinks{
+        position: absolute;
+        top: 2em;
+        right: 20px;
+      }
+      .cld-datetime{
+          max-width: 600px;
+      }
+      .activeborder{
+          height: 0.5em !important;
+      }
+      .anchLink{
+          padding-right: 4px;
+      }
+      #footer .footer-top {
+        background: url("./../images/fbg2.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding: 60px 0 30px 0;
+      }
+}
