@@ -74,7 +74,7 @@ limitations under the License.
 .accessible-megamenu > .accessible-megamenu-top-nav-item a[aria-expanded] {
   position: relative;
   display: block;
-  padding: 0.5em 1.3em 0.5em 1.3em;
+  padding: 0.5em 1.7em 0.5em 1.7em;
   color: #fff !important;
   text-decoration: none;
   z-index: inherit;

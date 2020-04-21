@@ -106,7 +106,7 @@ Highcharts.mapChart("chart-india", {
 //chart One start
 Highcharts.chart("chartContainer1", {
   title: {
-    text: "GST Registrations"
+    text: "GST Registration"
   },
   credits: {
     enabled: false

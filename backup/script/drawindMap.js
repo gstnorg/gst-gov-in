@@ -295,7 +295,7 @@ chart4.series[0].update(
 
   Highcharts.chart("chartContainer1", {
     title: {
-      text: "GST Registrations"
+      text: "GST Registration"
     },
     credits: {
       enabled: false
@@ -336,7 +336,7 @@ chart4.series[0].update(
     },
     exporting: { enabled: false },
     title: {
-      text: "Total Returns Filed"
+      text: "Payment Status"
     },
 
     xAxis: {
@@ -377,8 +377,7 @@ chart4.series[0].update(
       {
         name: "Failed",
         data: [52, 32, 42, 72]
-      }
-      ,
+      },
       {
         name: "Success",
         data: [32, 24, 24, 22]
@@ -461,7 +460,7 @@ chart4.series[0].update(
   //chart three start
   var chart = Highcharts.chart("chartContainer3", {
     title: {
-      text: "Total no. of payment transactions"
+      text: "Return Filing Trend"
     },
     credits: {
       enabled: false

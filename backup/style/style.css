@@ -4,7 +4,7 @@
   background: #2c4e86;
 }
 .primaryBg.main-nav {
-  background: #1b4c83;
+  background: #2e5179;
 }
 .primaryColor {
   background: #2c4e86;
@@ -23,7 +23,7 @@
 }
 .mid-section{
   background: #274c77;
-  border-bottom: 1px solid #20548e; 
+  /* border-bottom: 1px solid #3f7db1; */
 }
 .top-header a:hover {
   color: #fcfcfc;
@@ -35,7 +35,6 @@
   display: inline;
   color: #fff;
   line-height: 30px;
-  font-size: 14px;
 }
 .site-branding h1 {
   font-size: 1.8rem;
@@ -464,7 +463,6 @@ ul.breadcrumb li a:hover {
 }
 .signin-form .form-control {
   height: 30px;
-  font-size: 12px;
 }
 .btn-secondary {
   background: #edae49;
@@ -727,8 +725,6 @@ div.upcoming_container {
   color: #fff;
   margin-top: 15px;
   text-align: right;
-  font-size: 18px;
-  font-weight: bold;
 }
 .extLink a{
   color: #8fd4f8;
@@ -751,23 +747,4 @@ footer .f2 p {
   display: inline-block;
   float: left;
 }
-.impt_links{
-background: #3f7cac;
-}
-.impt_links div div p{
-  margin: 0;
-  padding: 10px 0;
-}
-.impt_links div div p a.alink:first-child{
-  border-right: 1px solid #68a5d5;
-}
-.impt_links div div p a{
-display: block;
-  text-align: center;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  
-  
-  
-}
+
