@@ -322,11 +322,13 @@ ul.breadcrumb li a:hover {
   text-align: center;
   text-decoration: none;
 }
+#chartContainer2 .highcharts-legend{display: none;}
 #footer {
   margin-top: 0px;
 }
 #footer .footer-top {
-  background: url("./../images/fbg.jpg");
+  /* background: url("./../images/fbg.jpg"); */
+  background: #274c77;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
@@ -708,9 +710,12 @@ div.upcoming_container {
 }
 
 .maps{
-  padding: 30px 30px 15px 30px; margin-top:15px;
-  background: linear-gradient(360deg, #3f7cac 90%, #2c688a 90%);
-  padding-top: 15px;
+  padding: 15px  30px 30px 30px; 
+  margin-top:15px;
+  background: linear-gradient(360deg, #ecf2fc 90%, #2c688a 90%);
+}
+.maps .row.mt-3{
+  margin-top: 15px;
 }
 .mapheading div div h4{
   color: #fff;
@@ -724,15 +729,13 @@ div.upcoming_container {
   font-size: .5em;
 }
 .extLink{
-  color: #fff;
+  color: #000;
   margin-top: 15px;
   text-align: right;
   font-size: 18px;
   font-weight: bold;
 }
-.extLink a{
-  color: #8fd4f8;
-}
+
 .alllinks{
   position: absolute;
   bottom: 0;
